@@ -102,6 +102,9 @@ p{
   align-content: center;
   text-align: start;
 }
+.textbox{
+  padding: 0% 0% 0% 0%;
+}
 }
 
 @media only screen and (min-width: 1800px){
@@ -146,6 +149,9 @@ p{
   padding: 100px 25% 300px 25%;
   align-content: center;
   text-align: start;
+}
+.textbox{
+  padding: 0% 16% 0% 40%;
 }
 }
 
