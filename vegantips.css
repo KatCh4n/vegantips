@@ -105,6 +105,14 @@ p{
 .textbox{
   padding: 0% 0% 0% 0%;
 }
+iframe{
+  border: none;
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: 100%;
+}
 }
 
 @media only screen and (min-width: 1800px){
@@ -152,6 +160,14 @@ p{
 }
 .textbox{
   padding: 0% 16% 0% 40%;
+}
+iframe{
+  border: none;
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+  width: 1280px ;
+  height: 720px;
 }
 }
 
@@ -263,14 +279,6 @@ li>a{
 }
 #Heading a:hover{
     color: rgb(255, 255, 255);
-}
-
-
-iframe{
-    border: none;
-    padding-top: 50px;
-    display: block;
-    margin: 0 auto;
 }
 
 /*Neon light text*/
