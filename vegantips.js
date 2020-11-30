@@ -17,4 +17,15 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-  
+
+//dropdown menu
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+$(document).ready(function(){
+  $(".dropdown").hover(function(){
+      var dropdownMenu = $(this).children(".dropdown-menu");
+      if(dropdownMenu.is(":visible")){
+          dropdownMenu.parent().toggleClass("open");
+      }
+  });
+}); 
