@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title></title>
+        <!-- <script type="text/javascript" src="vegantips.js" async></script> -->
 
     </head>
     <body>
+
+        <div id="map"></div>
+
+        <script>
+            function initMap(){
+                var location = {lat: -25.363, lng: 131.044};
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 4,
+                    center: location
+                });
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/
+        js?key=AIzaSyDNXl6BICIeGJHrCxUtqHHC7qOfGInLOaI&callback=initMap" type="text/javascript"></script>
+
+        <div class="mapouter"><div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
+            <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+        <div class="mapouter"><div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=glasgow%20vegan&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
+            <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+        
+        <button onclick="changeloc()"></button>
         <header>
         </header>
-        <div id="world-map" style="height: 300px;"></div>
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=vegan%20glasgow&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>">countries</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-        <div id="world-map" style="height: 300px;"></div>
+        
     </body>
 </html>
