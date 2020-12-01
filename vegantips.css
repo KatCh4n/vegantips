@@ -469,6 +469,7 @@ nav{
   color: white;
   font-weight: bolder;
   display: none;
+  font-size: large;
 }
 @media screen and (max-width: 880px) {
      nav a:not(:first-child) {
