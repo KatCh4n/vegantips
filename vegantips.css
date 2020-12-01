@@ -465,7 +465,7 @@ nav{
 .dropdown-menu:hover .menu-btn {
   background-color: #3e8e41;
 }
-.hamburger {
+.veganhamburger {
   color: white;
   font-weight: bolder;
   display: none;
@@ -474,7 +474,7 @@ nav{
      nav a:not(:first-child) {
      display: none;
   }
-  nav a.hamburger {
+  nav a.veganhamburger {
      float: right;
      display: block;
      padding: 12px;
@@ -482,7 +482,7 @@ nav{
   .dropdown-menu{
      display: none;
   }
-  nav.openNav a.hamburger {
+  nav.openNav a.veganhamburger {
      position: relative;
   }
   nav.openNav a {
