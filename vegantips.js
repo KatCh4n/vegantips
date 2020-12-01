@@ -19,5 +19,5 @@ function topFunction() {
 }
 
 function changeloc(){
-  document.body.
+  
 }
