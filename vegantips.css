@@ -376,7 +376,7 @@ nav{
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  padding: 15px;
+  padding: 10px;
 }
 .links-hidden:hover,.links:hover,.dropdown-menu:hover .menu-btn {
   background-color:  black;
