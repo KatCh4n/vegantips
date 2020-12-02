@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="vegantips.css">
+        <script type="text/javascript" src="vegantips.js" async></script>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <title>Vegan tips - Map</title>
     </head>
-    <header>
-        <nav>
-        <!-- <script type="text/javascript" src="vegantips.js" async></script> -->
-        <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10% height=10%>eganTips</a></div>
+    <body>
+        <header>
+          <nav>
+                <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10% height=10%>eganTips</a></div>
                 <a class="links" href="morals.html" onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
                 <a class="links" href="environment.html">Environment</a>
                 <a class="links" href="recipes.html">Recipes</a>
@@ -32,9 +37,7 @@
                 }
                 document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
                 </script>
-
-    </header>
-    <body>
+        </header>
 
         <div id="map"></div>
 
