@@ -3,6 +3,32 @@
     <head>
         <title></title>
         <!-- <script type="text/javascript" src="vegantips.js" async></script> -->
+        <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10% height=10%>eganTips</a></div>
+                <a class="links" href="morals.html" onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
+                <a class="links" href="environment.html">Environment</a>
+                <a class="links" href="recipes.html">Recipes</a>
+                <a class="links" href="tips.html">Advice and Tips</a>                         
+                <div class="dropdown-menu">
+                <button class="menu-btn">Resources </button>
+                <div class="menu-content">
+                <a class="links-hidden" href="resources.html">Get involved</a>
+                <a class="links-hidden" href="map.html">Map</a>
+                <a class="links-hidden" href="ongoingprojects.html">Projects</a>
+                </div>
+                </div>
+                <a class="veganhamburger">☰</a>
+                </nav>
+                <script>
+                var x = document.getElementsByTagName("nav")[0];
+                function toggleNav() {
+                   if (x.className === "") {
+                      x.className = " openNav";
+                   } else {
+                      x.className = "";
+                   }
+                }
+                document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
+                </script>
 
     </head>
     <body>
