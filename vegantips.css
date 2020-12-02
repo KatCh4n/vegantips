@@ -348,7 +348,7 @@ body {
   /*background-color: rgb(31, 78, 41); 
   opacity: 0.5;
   /*color: white;*/
-  padding: 20px;
+  padding: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
   width: 100%;
@@ -376,7 +376,7 @@ nav{
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  padding: 20px;
+  padding: 15px;
 }
 .links-hidden:hover,.links:hover,.dropdown-menu:hover .menu-btn {
   background-color:  black;
