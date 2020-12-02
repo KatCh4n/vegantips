@@ -58,7 +58,7 @@
   .index{
     max-width: 90%;
     margin: 0 auto;
-    padding-top: 300px;
+    padding-top: 0px;
 }
 .navbar{
   max-width: 90%;
@@ -75,6 +75,9 @@
       text-align: left;
       color: white;
       vertical-align: top;
+      position: relative;
+      color: #ffffff;
+      z-index: 4; /* Show content above video */
   }
 
   h1,h2,h3,h4,h5,h6{
@@ -131,6 +134,9 @@ iframe{
     text-align: left;
     color: white;
     vertical-align: top;
+    position: relative;
+    color: #ffffff;
+    z-index: 4; /* Show content above video */
   }
 
   h1,h2,h3,h4,h5,h6{
@@ -339,8 +345,8 @@ body {
   font-weight: bold;
   display: inline-block;
   text-align: center;
-  background-color: rgb(31, 78, 41); 
-  color: white;
+  /*background-color: rgb(31, 78, 41); */
+  /*color: white;*/
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: none;
@@ -371,15 +377,13 @@ nav{
   font-weight: bold;
   padding: 20px;
 }
-.links-hidden:hover,.links:hover {
+/*.links-hidden:hover,.links:hover,.dropdown-menu:hover .menu-btn {
   background-color:  #3e8e41;
-}
+}*/
 .dropdown-menu:hover .menu-content {
   display: block;
-  background-color: rgb(31, 78, 41);
-}
-.dropdown-menu:hover .menu-btn {
-  background-color: #3e8e41;
+  background-color: while;/*rgb(31, 78, 41);*/
+  opacity: .8;
 }
 .veganhamburger {
   color: white;
@@ -427,12 +431,6 @@ nav.openNav div.dropdown-menu{
   position: relative;
   overflow: hidden;
   height: 600px;
-}
-
-.container {
- position: relative;
- color: #ffffff;
- z-index: 4; /* Show content above video */
 }
 
 #video-background{ 
