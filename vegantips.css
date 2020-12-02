@@ -345,7 +345,8 @@ body {
   font-weight: bold;
   display: inline-block;
   text-align: center;
-  /*background-color: rgb(31, 78, 41); */
+  /*background-color: rgb(31, 78, 41); 
+  opacity: 0.5;
   /*color: white;*/
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -382,8 +383,8 @@ nav{
 }*/
 .dropdown-menu:hover .menu-content {
   display: block;
-  background-color: while;/*rgb(31, 78, 41);*/
-  opacity: .8;
+  background-color: black;/*rgb(31, 78, 41);*/
+  opacity: .5;
 }
 .veganhamburger {
   color: white;
