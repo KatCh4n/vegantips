@@ -372,14 +372,15 @@ nav{
 }
 .links,.links-hidden{
   display: inline-block;
-   color: rgb(41, 41, 41);
+   color: rgb(73, 73, 73);
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   padding: 20px;
 }
 .links-hidden:hover,.links:hover,.dropdown-menu:hover .menu-btn {
-  background-color:  ##ffffff;
+  background-color:  black;
+  opacity: .5;
 }
 .dropdown-menu:hover .menu-content {
   display: block;
