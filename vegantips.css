@@ -237,12 +237,12 @@ nav ul > li > a:active {
 nav a:hover{
     color:rgb(255, 255, 255);
 }
-nav a::before{
+/*nav a::before{
     content:'';
     display: block;
     height: 5px;
     background-color: #a7a7a7;
-}
+}*/
 nav a:hover::before{
     width: 50%;
     background-color: rgb(255, 255, 255);
@@ -329,90 +329,6 @@ body {
   }
 }
 
-/*CSS for loader*/
-
-/*.loader-wrapper{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-body, html {
-    height: 100%;
-    text-align: center;
-}
-
-body {
-  background-color: #242F3F;
-}
-
-.loader {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 4px solid #Fff;
-  animation: loader 2s infinite ease;
-}
-
-.loader-inner {
-  vertical-align: top;
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  animation: loader-inner 2s infinite ease-in;
-}
-
-@keyframes loader {
-  0% {
-    transform: rotate(0deg);
-  }
-  
-  25% {
-    transform: rotate(180deg);
-  }
-  
-  50% {
-    transform: rotate(180deg);
-  }
-  
-  75% {
-    transform: rotate(360deg);
-  }
-  
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loader-inner {
-  0% {
-    height: 0%;
-  }
-  
-  25% {
-    height: 0%;
-  }
-  
-  50% {
-    height: 100%;
-  }
-  
-  75% {
-    height: 100%;
-  }
-  
-  100% {
-    height: 0%;
-  }
-}*/
-
 /* for menu */
 
 *,*::after,*::before{
@@ -439,12 +355,12 @@ body {
   display: none;
   position: absolute;
   width: 100%;
-  background-color:  linear-gradient(to right, rgb(63, 99, 79) 34%, rgb(13, 78, 27) 65%);
+  /*background-color:  linear-gradient(to right, rgb(63, 99, 79) 34%, rgb(13, 78, 27) 65%);*/
   min-width: 160px;
   z-index: 1;
 }
 nav{
-  background: linear-gradient(to right, rgb(2, 34, 16) 34%, rgb(31, 78, 41) 65%);
+  /*background: linear-gradient(to right, rgb(2, 34, 16) 34%, rgb(31, 78, 41) 65%);*/
   width: 100%;
 }
 .links,.links-hidden{
@@ -510,13 +426,13 @@ nav.openNav div.dropdown-menu{
 .jumbotron{
   position: relative;
   overflow: hidden;
-  height: 200px;
+  height: 600px;
 }
 
 .container {
  position: relative;
  color: #ffffff;
- z-index: 2; /* Show content above video */
+ z-index: 4; /* Show content above video */
 }
 
 #video-background{ 
