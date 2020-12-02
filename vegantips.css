@@ -372,15 +372,15 @@ nav{
 }
 .links,.links-hidden{
   display: inline-block;
-  color: rgb(255, 255, 255);
+   color: rgb(41, 41, 41);
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   padding: 20px;
 }
-/*.links-hidden:hover,.links:hover,.dropdown-menu:hover .menu-btn {
-  background-color:  #3e8e41;
-}*/
+.links-hidden:hover,.links:hover,.dropdown-menu:hover .menu-btn {
+  background-color:  ##ffffff;
+}
 .dropdown-menu:hover .menu-content {
   display: block;
   background-color: black;/*rgb(31, 78, 41);*/
