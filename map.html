@@ -1,101 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="vegantips.css">
-        <script type="text/javascript" src="vegantips.js" async></script>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <title>Vegan tips - Map</title>
-    </head>
-    <body>
-        <header>
-            <div class="jumbotron">
-                <video id="video-background" preload muted autoplay loop>
-                  <source src="LandofHopeandGlory.mp4" type="video/mp4">
-                </video>
-                <div class="container">
-                    <nav>
-                        <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10% height=10%>eganTips</a></div>
-                        <a class="links" href="morals.html" onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
-                        <a class="links" href="environment.html">Environment</a>
-                        <a class="links" href="health.html">Health</a>
-                        <a class="links" href="recipes.html">Recipes</a>
-                        <a class="links" href="tips.html">Advice and Tips</a>                         
-                        <div class="dropdown-menu">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="vegantips.css">
+    <script type="text/javascript" src="vegantips.js" async></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Vegan tips - Map</title>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <video id="video-background" preload muted autoplay loop>
+                <source src="LandofHopeandGlory.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <nav>
+                    <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10%
+                                height=10%>eganTips</a></div>
+                    <a class="links" href="morals.html"
+                        onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
+                    <a class="links" href="environment.html">Environment</a>
+                    <a class="links" href="health.html">Health</a>
+                    <a class="links" href="recipes.html">Recipes</a>
+                    <a class="links" href="tips.html">Advice and Tips</a>
+                    <div class="dropdown-menu">
                         <button class="menu-btn"><a href="resources.html">Resources</a></button>
                         <div class="menu-content">
-                        <a class="links-hidden" href="activism.html">Get involved</a>
-                        <a class="links-hidden" href="map.html">Map</a>
-                        <a class="links-hidden" href="ongoingprojects.html">Projects</a>
+                            <a class="links-hidden" href="activism.html">Get involved</a>
+                            <a class="links-hidden" href="map.html">Map</a>
+                            <a class="links-hidden" href="ongoingprojects.html">Projects</a>
                         </div>
-                        </div>
-                        <a class="veganhamburger">☰</a>
-                    </nav>
-                </div>
-              </div>
-           
-                <script>
-                var x = document.getElementsByTagName("nav")[0];
-                function toggleNav() {
-                   if (x.className === "") {
-                      x.className = " openNav";
-                   } else {
-                      x.className = "";
-                   }
-                }
-                document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
-                </script>
-        </header>
-
-        <div id="map"></div>
+                    </div>
+                    <a class="veganhamburger">☰</a>
+                </nav>
+            </div>
+        </div>
 
         <script>
-            function initMap(){
-                var location = {lat: -25.363, lng: 131.044};
-                var map = new google.maps.Map(document.getElementById("map"), {
-                    zoom: 4,
-                    center: location
-                });
-                var marker = new google.maps.Marker({
-                    position: location,
-                    map: map
-                });
+            var x = document.getElementsByTagName("nav")[0];
+            function toggleNav() {
+                if (x.className === "") {
+                    x.className = " openNav";
+                } else {
+                    x.className = "";
+                }
             }
+            document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/
+    </header>
+
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            var location = { lat: -25.363, lng: 131.044 };
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/
         js?key=AIzaSyDNXl6BICIeGJHrCxUtqHHC7qOfGInLOaI&callback=initMap" type="text/javascript"></script>
 
-        <div class="mapouter"><div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas" 
-            src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
-            <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="
+                https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 600px;
+            }
 
-        <div class="mapouter"><div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas" 
-            src="https://maps.google.com/maps?q=glasgow%20vegan&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
-            <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-        
-        <button onclick="changeloc()"></button>
-        <header>
-        </header>
-        <footer>
-            <div class="Videos">
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 600px;
+            }
+        </style>
+    </div>
+
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=glasgow%20vegan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="
+                https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 600px;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 600px;
+            }
+        </style>
+    </div>
+
+    <button onclick="changeloc()"></button>
+    <header>
+    </header>
+    <footer>
+        <div class="Videos">
             <h4>help us get more views! Share this page ty. ;)</h4>
-            <h4>Share: 
-                <a href="https://twitter.com/intent/tweet?via=katch4n&text=Vegan+Tips+For+All+Things+Vegan!%20https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
-                Twitter</a>
-                 | 
+            <h4>Share:
+                <a
+                    href="https://twitter.com/intent/tweet?via=katch4n&text=Vegan+Tips+For+All+Things+Vegan!%20https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
+                    Twitter</a>
+                |
                 <a href="https://www.facebook.com/sharer/sharer.php?u=https://katch4n.github.io/vegantips/">
-                Facebook</a>
-                 | 
-                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
-                LinkedIn</a>
+                    Facebook</a>
+                |
+                <a
+                    href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
+                    LinkedIn</a>
             </h4>
-            </div>
+        </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        </footer>
-    </body>
+    </footer>
+</body>
+
 </html>

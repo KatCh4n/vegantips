@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="vegantips.css">
-        <script type="text/javascript" src="vegantips.js" async></script>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <title>Vegan tips - Projects</title>
-    </head>
-    <body>
-        <header>
-            <div class="jumbotron">
-                <video id="video-background" preload muted autoplay loop>
-                  <source src="LandofHopeandGlory.mp4" type="video/mp4">
-                </video>
-                <div class="container">
-                    <nav>
-                        <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10% height=10%>eganTips</a></div>
-                        <a class="links" href="morals.html" onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
-                        <a class="links" href="environment.html">Environment</a>
-                        <a class="links" href="health.html">Health</a>
-                        <a class="links" href="recipes.html">Recipes</a>
-                        <a class="links" href="tips.html">Advice and Tips</a>                         
-                        <div class="dropdown-menu">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="vegantips.css">
+    <script type="text/javascript" src="vegantips.js" async></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Vegan tips - Projects</title>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <video id="video-background" preload muted autoplay loop>
+                <source src="LandofHopeandGlory.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <nav>
+                    <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10%
+                                height=10%>eganTips</a></div>
+                    <a class="links" href="morals.html"
+                        onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
+                    <a class="links" href="environment.html">Environment</a>
+                    <a class="links" href="health.html">Health</a>
+                    <a class="links" href="recipes.html">Recipes</a>
+                    <a class="links" href="tips.html">Advice and Tips</a>
+                    <div class="dropdown-menu">
                         <button class="menu-btn"><a href="resources.html">Resources</a></button>
                         <div class="menu-content">
-                        <a class="links-hidden" href="activism.html">Get involved</a>
-                        <a class="links-hidden" href="map.html">Map</a>
-                        <a class="links-hidden" href="ongoingprojects.html">Projects</a>
+                            <a class="links-hidden" href="activism.html">Get involved</a>
+                            <a class="links-hidden" href="map.html">Map</a>
+                            <a class="links-hidden" href="ongoingprojects.html">Projects</a>
                         </div>
-                        </div>
-                        <a class="veganhamburger">☰</a>
-                    </nav>
-                </div>
-              </div>
-           
-                <script>
-                var x = document.getElementsByTagName("nav")[0];
-                function toggleNav() {
-                   if (x.className === "") {
-                      x.className = " openNav";
-                   } else {
-                      x.className = "";
-                   }
-                }
-                document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
-                </script>
-        </header>
+                    </div>
+                    <a class="veganhamburger">☰</a>
+                </nav>
+            </div>
         </div>
-            <h2>"There comes a time when silence is betrayal." - Martin Luther King</h2>
-        <footer>
-                <div class="Videos">
-                <h4>help us get more views! Share this page ty. ;)</h4>
-                <h4>Share: 
-                    <a href="https://twitter.com/intent/tweet?via=katch4n&text=Vegan+Tips+For+All+Things+Vegan!%20https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
+
+        <script>
+            var x = document.getElementsByTagName("nav")[0];
+            function toggleNav() {
+                if (x.className === "") {
+                    x.className = " openNav";
+                } else {
+                    x.className = "";
+                }
+            }
+            document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
+        </script>
+    </header>
+    </div>
+    <h2>"There comes a time when silence is betrayal." - Martin Luther King</h2>
+    <footer>
+        <div class="Videos">
+            <h4>help us get more views! Share this page ty. ;)</h4>
+            <h4>Share:
+                <a
+                    href="https://twitter.com/intent/tweet?via=katch4n&text=Vegan+Tips+For+All+Things+Vegan!%20https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
                     Twitter</a>
-                     | 
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://katch4n.github.io/vegantips/">
+                |
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://katch4n.github.io/vegantips/">
                     Facebook</a>
-                     | 
-                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
+                |
+                <a
+                    href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
                     LinkedIn</a>
-                </h4>
-                </div>
+            </h4>
+        </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        </footer>
-    </body>
+    </footer>
+</body>
+
 </html>
