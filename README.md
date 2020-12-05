@@ -1,6 +1,6 @@
 # vegantips
 For all things vegan!! <br>
-<a href="home.html"><img src='StrathVeganLogo.png' width=10%
+<a href="home.html"><img src='StrathVeganLogo.png' width=3%
                                 height=10%>eganTips</a></div>
                     <a class="links" href="morals.html"
                         onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
