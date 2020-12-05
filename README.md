@@ -1,7 +1,158 @@
-# vegantips
-For all things vegan!! <br>
-<a href="https://veganspeak.org/vegan-arguments/">https://veganspeak.org/vegan-arguments/</a>
-<h2 id="1">1. Animals eat other animals</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="vegantips.css">
+    <script type="text/javascript" src="vegantips.js" async></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Vegan tips - Home/Main page</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- <body background="1.jpg" -->
+    <header>
+        <div class="jumbotron">
+            <video id="video-background" preload muted autoplay loop>
+                <source src="LandofHopeandGlory.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <nav>
+                    <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10%
+                                height=10%>eganTips</a></div>
+                    <a class="links" href="morals.html"
+                        onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
+                    <a class="links" href="environment.html">Environment</a>
+                    <a class="links" href="health.html">Health</a>
+                    <a class="links" href="recipes.html">Recipes</a>
+                    <a class="links" href="tips.html">Advice and Tips</a>
+                    <div class="dropdown-menu">
+                        <button class="menu-btn"><a href="resources.html">Resources</a></button>
+                        <div class="menu-content">
+                            <a class="links-hidden" href="activism.html">Get involved</a>
+                            <a class="links-hidden" href="map.html">Map</a>
+                            <a class="links-hidden" href="ongoingprojects.html">Projects</a>
+                        </div>
+                    </div>
+                    <a class="veganhamburger">☰</a>
+                </nav>
+            </div>
+        </div>
+
+        <script>
+            var x = document.getElementsByTagName("nav")[0];
+            function toggleNav() {
+                if (x.className === "") {
+                    x.className = " openNav";
+                } else {
+                    x.className = "";
+                }
+            }
+            document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
+        </script>
+    </header>
+
+    <div class="index">
+        <h3>Welcome to Vegan Tips! Where we educate on veganism 101, for all no matter if you arn't vegan yet. ;)</h3>
+        <br>
+        <p>"The only reasons why people eat meat are as follows: habit, tradition, convenience, taste,
+            either they don't know or they don't care. Might does not make right and if we were on
+            that island we would totally eat the animal."-Kat</p>
+        <br>
+        <br>
+        <hr />
+        <br>
+        <a href="Spanish.html"><img src="Spain.svg" width=100px alt="Español"></a>
+        <a href="Portuguese.html"><img src="Portugal.svg" width=100px alt="Português"></a>
+        <a href="German.html"><img src="German.svg" width=100px alt="Deutsche"></a>
+        <a href="Dutch.html"><img src="Netherlands.svg" width=100px alt="Nederlands"></a>
+        <a href="Mandarin.html"><img src="China.svg" width=100px alt="中文"></a>
+        <a href="Norwegian.html"><img src="Norway.svg" width=100px alt="Norsk"></a>
+        <br><br>
+        <h3>
+            Courtesy from vgnspk - The online resource for science-based vegan advocacy.<br>
+            <a href="https://veganspeak.org/vegan-arguments/">https://veganspeak.org/vegan-arguments/</a>
+        </h3>
+        <img src='vgnspk.png' width='30%' height='%30'>
+        <br><br>
+        <h2>The Complete Vegan Arguments Guide</h2>
+        <br>
+        <h3>
+            Welcome to the most comprehensive vegan arguments guide.
+            Thinking of going vegan, but not sure if it’s all just a fad? Are you already vegan,
+            but have a hard time replying to your non-vegan friends and family? Do you eat meat and
+            believe veganism doesn’t make sense? Say no more, and continue reading.
+
+            Many people have compiled similar lists to this one, so I’d like to credit George
+            Martin’s
+            <a href="https://www.carnismdebunked.com/general-ethical/">Carnism Debunked</a>
+            and Vegan Sidekick’s
+            <a href="http://www.godfist.com/vegansidekick/guide.php">Guide</a>
+            for some of their ideas and arguments.
+        </h3>
+        <br><br>
+        <ul>
+            <li>
+                <h2>Index</h2>
+            </li>
+            <li>1.<a href='#1'>Animals eat other animals</a></li>
+            <li>2.<a href="#2">Top of the food chain / Circle of life</a></li>
+            <li>3.<a href="#3">Eating animals is necessary</a></li>
+            <li>4.<a href="#4">Eating animals is natural</a></li>
+            <li>5.<a href="#5">Humans are omnivores</a></li>
+            <li>6.<a href="#6">Most people eat meat</a></li>
+            <li>7.<a href="#7">Our ancestors ate meat</a></li>
+            <li>8.<a href="#8">Eating meat helped us evolve</a></li>
+            <li>9.<a href="#9">Eating meat is healthy</a></li>
+            <li>10.<a href="#10">Farmed animals are bred to be killed</a></li>
+            <li>11.<a href="#11">Farmed animals would go extinct</a></li>
+            <li>12.<a href="#12">Farmed animals would overpopulate</a></li>
+            <li>13.<a href="#13">Farmed animals would be killed in the wild</a></li>
+            <li>14.<a href="#14">Animals don't understand morality</a></li>
+            <li>15.<a href="#15">Animals would eat you if they could</a></li>
+            <li>16.<a href="#16">Humans are superior to animals</a></li>
+            <li>17.<a href="#17">The animals are already dead</a></li>
+            <li>18.<a href="#18">I eat every part of the animal so they don't go to waste</a></li>
+            <li>19.<a href="#19">God put animals here to eat</a></li>
+            <li>20.<a href="#20">The dairy industry doesn't harm animals</a></li>
+            <li>21.<a href="#21">The egg industry doesn't harm animals</a></li>
+            <li>22.<a href="#22">People would lose their jobs</a></li>
+            <li>23.<a href="#23">It's legal to eat animal products, there are laws to protect animals</a></li>
+            <li>24.<a href="#24">You buy products from sweatshops</a></li>
+            <li>25.<a href="#25">You can't be 100% vegan</a></li>
+            <li>26.<a href="#26">Going vegan doesn't make a difference</a></li>
+            <li>27.<a href="#27">The whole world will never go vegan</a></li>
+            <li>28.<a href="#28">I only buy locally grown, free-range, organic meat</a></li>
+            <li>29.<a href="#29">Humane slaughter</a></li>
+            <li>30.<a href="#30">Animal products are tasty</a></li>
+            <li>31.<a href="#31">Vegan food is tasteless</a></li>
+            <li>32.<a href="#32">It's a personal choice</a></li>
+            <li>33.<a href="#33">Vegans are so judgemental</a></li>
+            <li>34.<a href="#34">Morality is subjective</a></li>
+            <li>35.<a href="#35">Not everyone can be vegan</a></li>
+            <li>36.<a href="#36">Focus on more important issues / Human rights are more important</a></li>
+            <li>37.<a href="#37">Plants feel pain</a></li>
+            <li>38.<a href="#38">Animals die in crop harvesting</a></li>
+            <li>39.<a href="#39">You take medication that has been tested on animals</a></li>
+            <li>40.<a href="#40">Hitler was a vegetarian</a></li>
+            <li>41.<a href="#41">Veganism is expensive</a></li>
+            <li>42.<a href="#42">Veganism is unsustainable</a></li>
+            <li>43.<a href="#43">Protein</a></li>
+            <li>44.<a href="#44">Calcium</a></li>
+            <li>45.<a href="#45">Iron</a></li>
+            <li>46.<a href="#46">B12</a></li>
+            <li>47.<a href="#47">Omega-3</a></li>
+            <li>48.<a href="#48">Vitamin D</a></li>
+            <li>49.<a href="#49">Iodine</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2 id="1">1. Animals eat other animals</h2>
         <br><br>
         <p>
             We should not base our ethics as a society on what animals do in nature. Lions eat their offsprings if they
@@ -816,3 +967,35 @@ For all things vegan!! <br>
             The best sources of iodine are sea vegetables (seaweed, kelp, and dulse). Alternatively, iodised salt or
             supplements are also an option.
         </p>
+    </div>
+    <div class="container">
+        <p>Some More links to arguments:</p>
+        <br>
+        <a
+            href="https://theunboundedspirit.com/anti-vegan-arguments/">https://theunboundedspirit.com/anti-vegan-arguments/</a>
+        <br>
+        <a
+            href="https://apokerplayer.medium.com/the-best-most-logical-anti-vegan-arguments-477ebcc8aee1">https://apokerplayer.medium.com/the-best-most-logical-anti-vegan-arguments-477ebcc8aee1</a>
+        <br><br>
+    </div>
+    <footer>
+        <div class="Videos">
+            <h4>help us get more views! Share this page ty. ;)</h4>
+            <h4>Share:
+                <a
+                    href="https://twitter.com/intent/tweet?via=katch4n&text=Vegan+Tips+For+All+Things+Vegan!%20https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
+                    Twitter</a>
+                |
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://katch4n.github.io/vegantips/">
+                    Facebook</a>
+                |
+                <a
+                    href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
+                    LinkedIn</a>
+            </h4>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </footer>
+</body>
+
+</html>
