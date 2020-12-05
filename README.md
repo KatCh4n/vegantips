@@ -1,6 +1,6 @@
 # vegantips
 For all things vegan!!
-https://veganspeak.org/vegan-arguments/
+<a href="https://veganspeak.org/vegan-arguments/">https://veganspeak.org/vegan-arguments/</a>
 <h2 id="1">1. Animals eat other animals</h2>
         <br><br>
         <p>
