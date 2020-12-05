@@ -1,63 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="vegantips.css">
-    <script type="text/javascript" src="vegantips.js" async></script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <title>Vegan tips - Home/Main page</title>
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet"> -->
-</head>
-
-<body>
-    <!-- <body background="1.jpg" -->
-    <header>
-        <div class="jumbotron">
-            <video id="video-background" preload muted autoplay loop>
-                <source src="LandofHopeandGlory.mp4" type="video/mp4">
-            </video>
-            <div class="container">
-                <nav>
-                    <div id="Heading"><a href="home.html"><img src='StrathVeganLogo.png' width=10%
-                                height=10%>eganTips</a></div>
-                    <a class="links" href="morals.html"
-                        onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
-                    <a class="links" href="environment.html">Environment</a>
-                    <a class="links" href="health.html">Health</a>
-                    <a class="links" href="recipes.html">Recipes</a>
-                    <a class="links" href="tips.html">Advice and Tips</a>
-                    <div class="dropdown-menu">
-                        <button class="menu-btn"><a href="resources.html">Resources</a></button>
-                        <div class="menu-content">
-                            <a class="links-hidden" href="activism.html">Get involved</a>
-                            <a class="links-hidden" href="map.html">Map</a>
-                            <a class="links-hidden" href="ongoingprojects.html">Projects</a>
-                        </div>
-                    </div>
-                    <a class="veganhamburger">☰</a>
-                </nav>
-            </div>
-        </div>
-
-        <script>
-            var x = document.getElementsByTagName("nav")[0];
-            function toggleNav() {
-                if (x.className === "") {
-                    x.className = " openNav";
-                } else {
-                    x.className = "";
-                }
-            }
-            document.querySelector(".veganhamburger").addEventListener("click", toggleNav);
-        </script>
-    </header>
-
-    <div class="index">
-        <h3>Welcome to Vegan Tips! Where we educate on veganism 101, for all no matter if you arn't vegan yet. ;)</h3>
+# vegantips
+For all things vegan!! <br>
+<h3>Welcome to Vegan Tips! Where we educate on veganism 101, for all no matter if you arn't vegan yet. ;)</h3>
         <br>
         <p>"The only reasons why people eat meat are as follows: habit, tradition, convenience, taste,
             either they don't know or they don't care. Might does not make right and if we were on
@@ -149,10 +92,7 @@
             <li>48.<a href="#48">Vitamin D</a></li>
             <li>49.<a href="#49">Iodine</a></li>
         </ul>
-    </div>
-
-    <div class="container">
-        <h2 id="1">1. Animals eat other animals</h2>
+<h2 id="1">1. Animals eat other animals</h2>
         <br><br>
         <p>
             We should not base our ethics as a society on what animals do in nature. Lions eat their offsprings if they
@@ -967,35 +907,3 @@
             The best sources of iodine are sea vegetables (seaweed, kelp, and dulse). Alternatively, iodised salt or
             supplements are also an option.
         </p>
-    </div>
-    <div class="container">
-        <p>Some More links to arguments:</p>
-        <br>
-        <a
-            href="https://theunboundedspirit.com/anti-vegan-arguments/">https://theunboundedspirit.com/anti-vegan-arguments/</a>
-        <br>
-        <a
-            href="https://apokerplayer.medium.com/the-best-most-logical-anti-vegan-arguments-477ebcc8aee1">https://apokerplayer.medium.com/the-best-most-logical-anti-vegan-arguments-477ebcc8aee1</a>
-        <br><br>
-    </div>
-    <footer>
-        <div class="Videos">
-            <h4>help us get more views! Share this page ty. ;)</h4>
-            <h4>Share:
-                <a
-                    href="https://twitter.com/intent/tweet?via=katch4n&text=Vegan+Tips+For+All+Things+Vegan!%20https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
-                    Twitter</a>
-                |
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://katch4n.github.io/vegantips/">
-                    Facebook</a>
-                |
-                <a
-                    href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkatch4n.github.io%2Fvegantips%2F">
-                    LinkedIn</a>
-            </h4>
-        </div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </footer>
-</body>
-
-</html>
