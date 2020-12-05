@@ -1,5 +1,19 @@
 # vegantips
 For all things vegan!! <br>
+<a href="home.html"><img src='StrathVeganLogo.png' width=10%
+                                height=10%>eganTips</a></div>
+                    <a class="links" href="morals.html"
+                        onclick="return confirm('Warning! There will be some graphic content on this page, if it is not good for your eyes then why is it suitable for your stomach?')">Morals</a>
+                    <a class="links" href="environment.html">Environment</a>
+                    <a class="links" href="health.html">Health</a>
+                    <a class="links" href="recipes.html">Recipes</a>
+                    <a class="links" href="tips.html">Advice and Tips</a>
+                    <div class="dropdown-menu">
+                        <button class="menu-btn"><a href="resources.html">Resources</a></button>
+                        <div class="menu-content">
+                            <a class="links-hidden" href="activism.html">Get involved</a>
+                            <a class="links-hidden" href="map.html">Map</a>
+                            <a class="links-hidden" href="ongoingprojects.html">Projects</a>
 <h3>Welcome to Vegan Tips! Where we educate on veganism 101, for all no matter if you arn't vegan yet. ;)</h3>
         <br>
         <p>"The only reasons why people eat meat are as follows: habit, tradition, convenience, taste,
