@@ -29,7 +29,7 @@ For all things vegan!! <br>
             Thinking of going vegan, but not sure if it’s all just a fad? Are you already vegan,
             but have a hard time replying to your non-vegan friends and family? Do you eat meat and
             believe veganism doesn’t make sense? Say no more, and continue reading.
-
+        <br>
             Many people have compiled similar lists to this one, so I’d like to credit George
             Martin’s
             <a href="https://www.carnismdebunked.com/general-ethical/">Carnism Debunked</a>
