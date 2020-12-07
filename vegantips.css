@@ -507,3 +507,7 @@ nav.openNav div.dropdown-menu{
   display: table;
   clear: both;
 }
+
+label{
+  color: white;
+}
