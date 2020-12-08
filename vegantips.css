@@ -121,8 +121,9 @@ iframe{
 @media only screen and (min-width: 1800px){
   .index{
     max-width: 40%;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     padding-top: 70px;
+    padding-bottom: 0px;
   }
   .navbar{
     max-width: 50%;
@@ -160,7 +161,7 @@ p{
 /*CSS for Resources*/
 
 .Videos{
-  padding: 100px 25% 300px 25%;
+  padding: 0px 25% 300px 25%;
   align-content: center;
   text-align: start;
 }
@@ -510,4 +511,8 @@ nav.openNav div.dropdown-menu{
 
 label{
   color: white;
+}
+
+button:hover{
+  color:white;
 }
