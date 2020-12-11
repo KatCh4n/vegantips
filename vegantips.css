@@ -131,7 +131,7 @@ iframe{
   .container{
     max-width: 70%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 40px;
     text-align: left;
     color: white;
     vertical-align: top;
@@ -161,7 +161,7 @@ p{
 /*CSS for Resources*/
 
 .Videos{
-  padding: 0px 25% 300px 25%;
+  padding: 0px 25% 100px 25%;
   align-content: center;
   text-align: start;
 }
@@ -175,6 +175,9 @@ iframe{
   margin: 0 auto;
   width: 1280px ;
   height: 720px;
+}
+footer{
+  padding-bottom: 100px;
 }
 }
 
